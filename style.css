@@ -1,0 +1,27 @@
+*{margin: 0px; padding: 0px;}
+.parent{
+    text-align: center;
+}
+.child{
+    min-width: 20vw;
+    width: 24vw; /*relative unit, depends on the monitor of the unit you're using*/
+    height: 24vw;
+    border: 1px solid black;
+    display: inline-block; /*keeps the sides proportional*/
+}
+.child1{
+    float: left;
+    display: inline-block;
+}
+.child2{
+    float: right;
+}
+.child3{
+    width: 49vw;
+}
+.a{
+    block-size: 1;
+}
+.child1 a{
+    display: block;
+}
